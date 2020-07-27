@@ -1,0 +1,31 @@
+{
+	printf("pick a food item: \n1. pizza:250 \n2. burger:100 \n3. pasta :150\n4. fries: 200\n5. sandwich: 70\n6");
+	int choice=0;
+	scanf("%d" ,&choice);
+	
+	switch(choice)
+	{
+		case 1:
+			printf("food item:pizza \n1 price:250  rs\n2. ");
+			break;
+		case 2:
+		
+			printf("food item:burger \n1 price:100  rs \n2 ");
+			break;
+		case 3:
+			printf("food item:pasta \n1 price:150  rs \n2");
+			break;
+		case 4:
+		
+			printf("food item:fries \n1 price:200  rs \n2");
+			break;
+		case 5:
+		
+			printf("food item:sandwich \n1 price:70  rs \n2");
+			break;
+					
+		default: printf("invalid choice");
+		break;
+		};
+
+}
